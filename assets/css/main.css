@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: grid;
+  grid-template-rows: auto(3, auto);
+  grid-row-gap: 7em;
+}
+
+main {
+  background-image: url('../images/profile-placeholder.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  height: auto;
+  grid-row: 2;
+}
+
+.back-drop {
+  width: 60%;
+  height: auto;
+  border-top: 1px solid #794141;
+  border-right: 1px solid #794141;
+  border-left: 1px solid #794141;
+  border-radius: 7px;
+  color: #fff;
+  margin: 0 2.5em 0 auto;
+  display: grid;
+  grid-auto-rows: repeat(3, auto);
+  grid-row-gap: 9em;
+}
+
+.profile-top {
+  height: auto;
+  color: #fff;
+  display: grid;
+}
+
+.profile-name {
+  grid-column: 1;
+  font-weight: bold;
+  font-size: 3.2em;
+  padding: 0.4em;
+}
+
+.follow-button {
+  width: 10vw;
+  height: 6.6vh;
+  background: linear-gradient(#c03434f1, #dd2828);
+  color: #fff;
+  border-radius: 9px;
+  grid-column: 3;
+  font-weight: bold;
+  font-size: 2.2em;
+  padding: 0.3em;
+  margin: auto;
+  text-align: center;
+}
+
+.stats-section {
+  display: grid;
+  grid-row: 2;
+  grid-template-columns: repeat(3, 1fr);
+  width: auto;
+}
+
+.profile-stats {
+  height: auto;
+  color: #fff;
+  border: 1px solid #794141;
+  width: 12vw;
+  padding: 0.8em;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.featured-release {
+  display: grid;
+  grid-template-columns: repeat(4, 11vw);
+  grid-column-gap: 1.2em;
+}
+
+header {
+  font-weight: bold;
+  font-size: 2.3em;
+  line-height: 1.4em;
+}
+
+.release-post {
+  width: 10.32vw;
+  height: 21vh;
+  color: #fff;
+}
+
+.row {
+  width: 100%;
+  height: auto;
+  grid-column: 1;
+}
+
+.pl-2 {
+  padding-left: 1em;
+}
+
+.mt-2 {
+  margin-top: 0.8em;
+}
